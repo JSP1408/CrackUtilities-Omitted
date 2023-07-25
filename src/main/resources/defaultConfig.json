@@ -1,0 +1,39 @@
+{
+  "commandSystem": {
+    "prefix": "."
+  },
+  "commandCoreSystem": {
+    "layers": 3,
+    "maxDistance": 128,
+    "enabled": false
+  },
+  "chatQueueSystem": {
+    "delay": 150
+  },
+  "selfCareSystem": {
+    "delay": 150,
+    "checkCreative": false,
+    "checkOperator": false
+  },
+  "chatFormatting": {
+    "enabled": false,
+    "formatting": [
+      {"color": "dark_gray", "text": "["},
+      {"color": "blue", "bold": true, "text": "CUMtilities"},
+      {"color": "dark_gray", "text": "] ", "bold": false},
+      {"color": "gray", "text": "%username% "},
+      {"color": "dark_gray", "text": "> "},
+      {"color": "gray", "text": "%message%"}
+    ]
+  },
+  "ircSystem": {
+    "host": "",
+    "port": 80123971,
+    "timeout": 5000
+  },
+  "keyBindings": {
+    "spin": {
+      "increment": 1
+    }
+  }
+}

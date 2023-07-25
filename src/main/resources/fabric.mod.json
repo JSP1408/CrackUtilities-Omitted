@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "crackutilities",
+  "version": "${version}",
+  "name": "Crack Utilities",
+  "description": "A utility mod based around kaboom servers!",
+  "authors": [
+    "E11eman"
+  ],
+  "contact": {
+    "homepage": "https://github.com/VosmoslaGod/Project-Vosmos",
+    "sources": "https://github.com/VosmoslaGod/Project-Vosmos"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/crackutilities/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.e11eman.crackutilities.InitializationPoint"
+    ],
+    "client": [
+
+    ]
+  },
+  "mixins": [
+    "crackutilities.mixins.json"
+  ],
+  "depends": {
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
